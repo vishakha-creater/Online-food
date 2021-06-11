@@ -1,0 +1,85 @@
+#services{
+    margin:34px;
+      
+      display:flex;
+  }
+  #sevices .box{
+      border:2px solid green;;
+  }
+  .box{
+      height:200px;
+      display:inline-flex;
+   justify-content: center;
+      weight:150px;
+  }
+  h1{
+      color:darkgreen;
+      text-decoration: darkgreen;
+      text-align: center;
+      font-size: x-large;
+     padding:3%;
+  
+      font-weight: 800;
+  }
+  body{
+      background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-black-meat-western-food-banner-background-image_194600.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:120vh;
+  }
+  #text{
+      color:white;
+      text-align: center;
+      font-size: x-large;
+      padding-right:13%;
+  }
+  #logo{
+       
+      margin:34px 45px;
+  
+  }
+  #logo img{
+  height:59px;
+  margin:3px 6px;
+  
+  }
+  
+  *{
+      margin:0;
+      padding:0;
+  }
+  #navbar{
+      position:relative;
+  }
+  
+  #navbar{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  #navbar ul{
+      display: flex;
+  
+  }
+  
+  
+  #navbar ul li{
+      list-style: none;
+      font-size:1.3 rem;
+      color:white;
+      
+  }
+  #navbar ul li a{
+     display:block;
+     padding:3px 22px;
+     border-radius:20px;
+     text-decoration: none;
+     color:white;
+     font-size: larger;
+  }
+  #navbar ul li a:hover{
+     color:white;
+     background-color:teal;
+  }
+  
