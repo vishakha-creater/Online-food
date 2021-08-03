@@ -1,37 +1,65 @@
 #services{
-    margin:34px;
-      
+    
+       display:flex;
+  }
+  #services .box{
+     margin-top:6%;
       display:flex;
+      width:100%;
+      height:100%;
+    padding:50px;
+    
   }
-  #sevices .box{
-      border:2px solid green;;
+  #services .box img{
+      height:200px;
+      width:300px;
+     
+      
+    
   }
-  .box{
+  
+#navbar::before{
+    content:"";
+    background-color:black;
+    position:absolute;
+    height:100%;
+    width:100%;
+  
+    z-index:-2;
+    opacity:0.4;
+}
+  
+#home{
+    display:flex;
+    flex-direction:column;
+    padding:34px 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+   body{ 
+    background:url("https://i2.wp.com/png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-food-overlooking-the-background-banner-image_138613.jpg") no-repeat center center/cover;
+   }
+  
+ /* .box{
       height:200px;
       display:inline-flex;
    justify-content: center;
       weight:150px;
-  }
+  }*/
   h1{
-      color:darkgreen;
-      text-decoration: darkgreen;
-      text-align: center;
-      font-size: x-large;
-     padding:3%;
-  
-      font-weight: 800;
+     color:brown;
+     text-align: center;
+     justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: x-large;
   }
-  body{
-      background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-black-meat-western-food-banner-background-image_194600.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:120vh;
-  }
-  #text{
+ 
+  #services .box p{
       color:white;
-      text-align: center;
-      font-size: x-large;
-      padding-right:13%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: large;
+     
   }
   #logo{
        
@@ -39,26 +67,25 @@
   
   }
   #logo img{
-height:100px;
-margin:3px 6px;
-border-radius: 10rem;
-
-
-}
+    height:100px;
+    margin:3px 6px;
+    border-radius: 10rem;
+    
+    
+    }
   
   *{
       margin:0;
       padding:0;
   }
-  #navbar{
-      position:relative;
-  }
   
-  #navbar{
-      display:flex;
-      align-items: center;
-      justify-content: center;
-      
+#navbar{
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  
   }
   #navbar ul{
       display: flex;
