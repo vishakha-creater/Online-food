@@ -1,0 +1,65 @@
+#navbar{
+    flex-direction: column;
+    display:flex;
+
+}
+body{
+   height:150vh;
+    background:url("https://i2.wp.com/png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-food-overlooking-the-background-banner-image_138613.jpg") no-repeat center center/cover;
+}
+     
+#navbar::before{
+    content:"";
+    background-color:black;
+    position:absolute;
+    height:100%;
+    width:100%;
+  
+    z-index:-2;
+    opacity:0.4;
+}
+#home{
+    height:280px;
+    flex-direction:column ;
+    padding:3px 68px;
+}
+#home p{
+    font-size: 13px;
+}
+#navbar ul li a:hover{
+    color:white;
+    background-color:teal;
+ }
+#services .box{
+   padding-top:120%;
+    display: block;
+    height:100vh;
+}
+h1{
+    padding-top:10%;
+    font-size: 18px;
+     color:brown;
+}
+form{
+    padding-left:5%;
+}
+
+.h-primary{
+    font-size: 28px;
+}
+.services{
+    display:block;
+}
+.button{
+    transform:scale(1);
+}
+.image img{
+    width:150px;
+    height:150px;
+    border:1px solid white;
+    border-radius:20px;
+    position:relative;
+    animation-name: vish;
+    animation-iteration-count: 0;
+    animation-duration: 0s;
+}
