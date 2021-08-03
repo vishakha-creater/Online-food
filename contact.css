@@ -9,11 +9,22 @@ label {
 
 }
 #logo img{
-height:100px;
-margin:3px 6px;
-border-radius: 10rem;
-
-
+    height:100px;
+    margin:3px 6px;
+    border-radius: 10rem;
+    
+    
+    }
+      
+#navbar::before{
+    content:"";
+    background-color:black;
+    position:absolute;
+    height:100%;
+    width:100%;
+  
+    z-index:-2;
+    opacity:0.4;
 }
 
 *{
@@ -25,14 +36,16 @@ border-radius: 10rem;
 }
 
 #navbar{
+    position:relative;
     display:flex;
     align-items: center;
     justify-content: center;
-    
 }
+
 #navbar ul{
     display: flex;
-
+text-align:center;
+justify-content: center;
 }
 
 
@@ -86,6 +99,7 @@ margin:auto;
       
       }
       h1{
+          justify-content: center;
         margin-top: 0;
         text-align: center;
         color:olivedrab;
@@ -102,3 +116,4 @@ margin:auto;
         cursor: pointer;
         
       }
+      
