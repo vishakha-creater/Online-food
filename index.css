@@ -12,20 +12,30 @@ border-radius: 10rem;
 }
 
 *{
-    margin:0;
+    margin:0%;
     padding:0;
 }
 #navbar{
     position:relative;
-}
-
-#navbar{
     display:flex;
     align-items: center;
     justify-content: center;
+    
 }
+
 #navbar ul{
     display: flex;
+
+}
+#navbar::before{
+    content:"";
+    background-color:black;
+    position:absolute;
+    height:100%;
+    width:100%;
+  
+    z-index:-1;
+    opacity:0.4;
 
 }
 
@@ -56,30 +66,69 @@ border-radius: 10rem;
      align-items: center;
 
 }
-body{
-     background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-black-meat-western-food-banner-background-image_194600.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-height:120vh;
+#home::before{
+    content:"";
+    
+    background:url("https://i2.wp.com/png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-food-overlooking-the-background-banner-image_138613.jpg") no-repeat center center/cover;
+   background-blend-mode: darken;
+    position:absolute;
+
+    height:100%;
+    width:100%;
+  
+    z-index:-1;
+    opacity:0.89;
+    
 }
+/*https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-black-meat-western-food-banner-background-image_194600.jpg*/
 #home{
-     color: darkorange;
+     color:white;
      margin-top: 7%;
      font-size: 2.2rem;
 }
 
 .button{
     display: block;
-    width: 200px;
+    width: 150px;
     border: none;
     border-radius: 9px;
-    background-color:green;
+    background-color:brown;
     padding: 14px 28px;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
+    transform:scale(2);
+    transition-duration: 2s;
+
     
   }
 #home p{
      font-size: 1.6rem;
      margin-top: 2%;
+}
+.image img{
+    width:150px;
+    height:150px;
+    border:1px solid white;
+    border-radius:20px;
+    position:relative;
+    animation-name: vish;
+    animation-iteration-count: 2;
+    animation-duration: 5s;
+
+
+}@keyframes vish{
+   50%{
+       right:500px;
+   }
+   100%{
+       left:500px;
+   }
+}
+.box{
+    background-color:green;
+    width:80%;
+    text-align:center;
+    border:1px solid black;
+    border-radius: 25px;
+    
 }
